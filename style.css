@@ -1,23 +1,69 @@
-.header{
-    text-align: center;
-    color: rgb(130, 85, 172);
-    text-decoration: underline;
-}
+body{
+    /* background-image: url(https://dillelaw.com/wp-content/uploads/2018/01/patrick-tomasso-208114-copy.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: chocolate ;
 
-.maincontainer{
-    width:auto;
 }
-
-.container{
-    border: 2px solid rgb(0, 0, 0);
-     background-color:rgb(130, 85, 172);
-    color: white;
-    font-family: 'Times New Roman', Times, serif
+img.card-img-top {
+    width: 286px;
+    height: 180px;
+}
+.card {
+    border: 4px solid currentColor;
+    display: inline-block;
+    background-color: currentcolor;
+}
+.card-body {
+    background-color: crimson;
+}
+.btn {
+    border: none;
     
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
 }
- 
-.heading2{
-    color: rgb(127, 35, 212);
-    font-weight: 10px;
+
+/* Green */
+.btn-success {
+    color: green;
+    background-color: antiquewhite;
+    margin-bottom: 10px;
+
 }
-   
+
+.btn-success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+h2.card-heading {
+    color: azure;
+    /* padding: 50px; */
+}
+h5.card-title {
+    color: yellow;
+    font-size: x-large;
+}
+h1.heading1 {
+    background-color: black;
+    color: azure;
+    font-size: 50px;
+}
+h2.heading1 {
+    background-color: black;
+    color: azure;
+    font-size: 35px;
+}
+h3.heading1 {
+    background-color: black;
+    color: azure;
+    font-size: 20px;
+}
+.col-md-4.p-3 {
+    display: inline-block;
+    padding: 10px;
+
+}
